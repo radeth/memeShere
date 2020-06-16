@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1055173398292",
+    "firebase_url": "https://meme-shere.firebaseio.com",
+    "project_id": "meme-shere",
+    "storage_bucket": "meme-shere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055173398292:android:3d167f0b73e45a67c5bc01",
+        "android_client_info": {
+          "package_name": "com.example.memeshere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055173398292-g41votrito67u5kl8sofpnt4jrboujai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfzAmXup2zYpyUW7A7mWgJLn77yXX-SMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055173398292-g41votrito67u5kl8sofpnt4jrboujai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
