@@ -11,58 +11,60 @@
         android:id="@+id/nickname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/selectphoto_imageview_register"
+        android:layout_width="143dp"
+        android:layout_height="132dp"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/selectphoto_button_register"
+        app:layout_constraintEnd_toEndOf="@+id/selectphoto_button_register"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/selectphoto_button_register"
+        app:layout_constraintTop_toTopOf="@+id/selectphoto_button_register"
+        app:layout_constraintVertical_bias="0.0" />
+
     <Button
         android:id="@+id/selectphoto_button_register"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="151dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/ic_launcher_background"
         android:text="Select Photo"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/sign_out_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nickname"
-        app:layout_constraintVertical_bias="0.179" />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/selectphoto_imageview_register"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:civ_border_width="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/sign_out_button"
-        app:layout_constraintEnd_toEndOf="@+id/selectphoto_button_register"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/selectphoto_button_register"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/sign_out_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="444dp"
+        android:layout_marginTop="24dp"
         android:text="Sign out"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectphoto_button_register" />
 
     <Button
         android:id="@+id/add_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:text="Add image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sign_out_button"
+        app:layout_constraintStart_toStartOf="@+id/sign_out_button"
         app:layout_constraintTop_toBottomOf="@+id/sign_out_button" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
